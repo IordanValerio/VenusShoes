@@ -5,7 +5,7 @@ Comecei esse projeto para trabalhar com a criação de uma experiência visual a
 
 ## 🚧 Status
 
-O projeto ainda está em desenvolvimento. Eu pretendo criar novas funcionalidades, melhorias visuais e ajustes ao longo do tempo.
+O projeto ainda está em desenvolvimento. Eu pretendo criar novas funcionalidades ao longo do tempo.
 
 ## 🛠️ Tecnologias utilizadas
 
