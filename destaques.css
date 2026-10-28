@@ -1,0 +1,84 @@
+#destaques{
+  width: auto;
+  height: 720px;
+  background-color:beige
+}
+#container1{
+  display: flex;
+  flex-direction: column;
+}
+#titulo-destaques{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+#T1-destaques{
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+}
+#T2-destaques{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: justify;
+  width: 500px;
+  height: 250px;
+  margin-left: 40px;
+}
+#text-destaques{
+  margin-left: 40px;
+  font-size: 35px;
+  line-height: 45px;
+}
+#container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+#produtos{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  background-color: white;
+  border-radius: 25px;
+}
+#produtos img{
+  width: 200px;
+  height: 350px;
+  border-radius: 200px;
+  border: 3px solid black;
+}
+#controles{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+#botoes-destaques{
+  text-align: center;
+  width: 150px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+#produto3{
+  margin-right: 20px;
+}
+#produto1, #produto2, #produto3 {
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+
+#produto1.ativo,
+#produto2.ativo,
+#produto3.ativo {
+    opacity: 1;
+    transform: scale(1.05);
+}

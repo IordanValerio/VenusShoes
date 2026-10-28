@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venus Shoes</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="hero.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="destaques.css">
+
+</head>
+
+<body>
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+
+  <header>
+    <nav id="nav-bar">
+      <span id="logo">
+        <ion-icon name="footsteps"></ion-icon> Vênus Shoes
+      </span>
+
+      <ul id="menu">
+        <li>
+          <a class="link" href="#">Sobre</a>
+        </li>
+
+        <li>
+          <a class="link" href="#destaques">Destaques</a>
+        </li>
+
+        <li>
+          <a class="link" href="#">Feminino</a>
+        </li>
+
+        <li>
+          <a class="link" href="#">Masculino</a>
+        </li>
+
+        <li>
+          <a class="link" href="#">Contato</a>
+        </li>
+      </ul>
+
+      <div class="C-icones">
+        <button id="search" id="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+        <a href="carrinho.html" id="cart"> <ion-icon name="cart-outline"></ion-icon> </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION: SESSÃO PRINCIPAL -->
+  <!-- TÍTULO E LINK PARA COLEÇÃO -->
+
+  <section id="hero">
+
+    <div id="hero-text">
+      <h1>Troque os sapatos<br>
+      E mantenha a elegância</h1>
+      
+      <h2 id="text">Aqui você encontra os melhores sapatos para qualquer ocasião</h2>
+
+      <a href="#destaques" id="link-destaques">Veja a nossa coleção</a>
+    </div>
+
+    <!-- BANNER DE UM PRODUTO EM DESTAQUE -->
+
+    <div id="banner">
+
+      <div id="product-card">
+        <img src="./imagens&videos/pexels-pnw-prod-8347584.jpg" id="banner-img">
+      </div>
+      <div>
+
+    </div>
+
+    <!-- FORMULÁRIO DE CADASTRO DE E-MAIL -->
+
+    <div id="cadastro">
+
+      <h2>Cadastre seu e-mail e receba <br> as novidades da Vênus Shoes</h2>
+
+      <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <input id="botao" type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+
+  <!-- SESSÃO DE DESTAQUES -->
+
+  <section id="destaques">
+    
+    <div id="container1">
+
+      <div id="titulo-destaques"> <!-- div do título centralizado no topo -->
+        <h1 id="T1-destaques">Escolhas que fazem a diferença</h1>
+      </div>
+
+      <div id="container2"> <!-- div  do subtítulo à esquerda e do carrossel à direita -->
+
+        <div id>
+          <h2 id="T2-destaques"> Seu estilo, <br> seus <br> momentos.</h2>
+
+          <p id="text-destaques">Conheça modelos <br> seleciobados para <br> acompanhar você em <br> todas as ocasiões.</p>
+        </div>
+
+        <div id="carrossel">
+          <div id="produtos">
+
+            <div id="produto1">
+              <img src="./imagens&videos/pexels-karolina-grabowska-5713298 - Copia.jpg">
+            </div>
+
+            <div id="produto2">
+              <img src="./imagens&videos/pexels-pnw-prod-8347584.jpg">
+            </div>
+
+            <div id="produto3">
+              <img src="./imagens&videos/pexels-nudethephotographer-37190208.jpg">
+            </div>
+          </div>
+
+          <div id="controles">
+            <div id="botoes-destaques">
+            <input type="radio" name="produto" id="radio1" checked>
+            <input type="radio" name="produto" id="radio2">
+            <input type="radio" name="produto" id="radio3">
+          </div>
+
+          </div>
+  
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+    <footer>
+      <P id="p1">©2025 — Iordan Valério</P>
+    </footer>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <script src="produtos.js"></script>
+</body>
+</html>

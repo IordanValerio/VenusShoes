@@ -1,0 +1,117 @@
+/* 
+#grid{
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "hero hero hero"
+  "footer footer footer";
+  grid-template-rows: 110px 1fr 1fr;
+}
+*/
+
+
+/* TÍTULO */
+#hero{
+  display: flex;
+  justify-content: space-around;
+  background-color:#F7F2ED;
+}
+
+#hero-text{
+  margin-left: 50px;
+}
+h1{
+  color: #2B1E17;
+  margin-top: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+#text{
+  color: #2B1E17;
+  margin: 20px 0px 20px;
+  width: 400px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+#link-destaques{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration:underline;
+  padding: 10px 2px;
+  border-radius: 20px;
+}
+
+#link-destaques:hover{
+  background-color: rgb(206, 174, 174);
+  transition: 0.3s;
+}
+
+/* PRODUTO EM DESTAQUE PARA CHAMAR A ATENÇÃO */
+
+#banner{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+img{
+  width: 300px;
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  border-radius: 200px;
+  border: 3px solid black;
+}
+
+/* FORMULÁRIO DE CADASTRO DE E-MAIL PARA NOVIDADES */
+
+#cadastro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 370px;
+  height: 430px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  background-color: rgb(228, 222, 210);
+  border-radius: 20px;
+  border: 1px solid rgb(136, 132, 132);
+}
+
+h2 {
+  color: #2B1E17;
+  margin-top: 30px;
+  width: 400px;
+  font-size: 20px;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+input{
+  background-color: white;
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 50px;
+  border-color: black;
+  text-align: center;
+}
+#botao:hover{
+  background-color: rgb(206, 174, 174);
+  transition: 0.3s;
+}
+
+/* SOBRE */
